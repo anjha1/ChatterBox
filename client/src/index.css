@@ -1,0 +1,60 @@
+/* client/src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar for better aesthetics */
+::-webkit-scrollbar {
+  width: 8px; /* For vertical scrollbars */
+  height: 8px; /* For horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light background for the track */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Darker thumb */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Even darker on hover */
+}
+
+/* Dark mode scrollbar */
+.dark ::-webkit-scrollbar-track {
+  background: #333; /* Dark background for the track in dark mode */
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #666; /* Lighter thumb in dark mode */
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #999; /* Even lighter on hover in dark mode */
+}
+
+/* General body styling */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif; /* Using Inter font */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5; /* Light background */
+  color: #333; /* Dark text */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode global styles */
+body.dark {
+  background-color: #1a202c; /* Dark background */
+  color: #e2e8f0; /* Light text */
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
