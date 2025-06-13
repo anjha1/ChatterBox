@@ -1,8 +1,4 @@
-Sure bhai! Neeche poora **clean, copy-paste ready `README.md`** de raha hoon — formatting, headings, emoji, and structure sab professional hai, bas paste kar de GitHub ya kisi bhi repo mein:
 
----
-
-````markdown
 # 💬 ChatterBox - Real-time Messaging Application
 
 **ChatterBox** is a modern, full-stack real-time messaging application designed to provide a seamless communication experience. It supports 1-to-1 private chats, group messaging with roles, real-time message updates, and a responsive user interface.
